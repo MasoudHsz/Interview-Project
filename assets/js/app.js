@@ -1,3 +1,6 @@
+new WOW().init();
+
+
 var adjs = ["Products", 'Branding', "Experiences"],
     sentence = $('#sentence'),
     textSlider = $('#textSlider'),
