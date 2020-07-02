@@ -32,7 +32,8 @@ body::-webkit-scrollbar {
 }
 .logo h1 {
   position: absolute;
-  top: -15px;
+  top: 25px;
+  left: 20px;
   font-size: 28px;
   white-space: nowrap;
 }
@@ -83,6 +84,7 @@ video {
 #sentence > ul {
   display: inline;
   line-height: 0.5em;
+  height: 66px;
 }
 #sentence > ul {
   width: 400px !important;
@@ -166,12 +168,12 @@ html {
 .masonry-item a {
   color: #c6c5c5;
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .masonry {
-    columns: 3;
+    columns: 1;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1324px){
   .masonry {
     columns: 3;
   }
@@ -206,43 +208,42 @@ html {
 }
 .box1 {
   flex: 1 1 36%;
-
-  background-color: red;
 }
 .box2 {
   flex: 1 1 32%;
   display: flex;
   flex-direction: column;
-  background-color: blue;
 }
 .box3 {
   flex: 1 1 32%;
   display: flex;
   flex-direction: column;
-  background-color: yellow;
 }
 .inBox1 {
   height: 33.333%;
   flex: 1 1 33.3333%;
-  background-color: purple;
   margin: 20px;
 }
 .inBox2 {
   height: 33.333%;
   flex: 1 1 33.3333%;
-  background-color: pink;
   margin: 20px;
 }
 .inBox3 {
   flex: 1 1 33.3333%;
   height: 33.333%;
-  background-color: green;
   margin: 20px;
 }
 .inBox1,
 .inBox2 {
   display: flex;
   flex-direction: column;
+}
+
+.inBox1 {
+  border: 0.5px solid#c6c5c5;
+  border-left: none;
+  border-right: none;
 }
 .box2 .inBox3 {
   display: flex;
@@ -258,24 +259,29 @@ html {
   height: 80%;
 }
 .col1 {
-  background: brown;
   width: 30%;
 }
 .col2 {
   display: flex;
   flex-direction: column;
-  background: brown;
   width: 30%;
 }
 .box3 .inBox3 {
   display: flex;
   align-items: flex-end;
 }
+.nav {
+  color: #c6c5c5;
+}
+.boldText{
+  font-size: 23px;
+}
 /* Media Query */
 @media (max-width: 1600px) {
   video {
     width: 800px !important;
   }
+
 }
 @media (max-width: 1390px) {
   video {
