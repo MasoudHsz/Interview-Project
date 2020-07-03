@@ -36,6 +36,7 @@ body::-webkit-scrollbar {
   left: 20px;
   font-size: 28px;
   white-space: nowrap;
+  z-index: 9999999;
 }
 video {
   grid-column: 3 / 6;
@@ -242,6 +243,7 @@ html {
   flex: 1 1 33.3333%;
   height: 33.333%;
   margin: 0 20px;
+  padding: 20px;
 }
 .inBox1,
 .inBox2 {
